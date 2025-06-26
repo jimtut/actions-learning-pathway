@@ -5,5 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Say Hello World
-        uses: actions/checkout@v3
-      - run: git branch
+      - run: echo hello world
